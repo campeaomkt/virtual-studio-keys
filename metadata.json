@@ -1,0 +1,6 @@
+{
+  "name": "VSK - Virtual Studio Keys Landing Page",
+  "description": "Landing Page de alta conversão para o software VSK - Virtual Studio Keys: visualizador MIDI, motor de áudio SoundFont .SF2, detecção de acordes e cascata waterfall.",
+  "requestFramePermissions": ["midi"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
