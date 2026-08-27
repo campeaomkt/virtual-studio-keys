@@ -114,13 +114,6 @@ export const HeroSection = ({ onOpenCheckout }: HeroSectionProps) => {
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
                     />
-                    <button
-                      onClick={() => setIsPlaying(false)}
-                      className="absolute top-2 right-2 z-30 px-2.5 py-1 rounded-lg bg-black/80 hover:bg-black text-white text-[10px] font-mono border border-[#27272A] cursor-pointer transition-colors backdrop-blur-sm"
-                      aria-label="Fechar vídeo"
-                    >
-                      ✕ Fechar
-                    </button>
                   </div>
                 ) : (
                   <>
