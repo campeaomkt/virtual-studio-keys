@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Sparkles, ArrowRight, ShieldCheck, Zap, Star, Music, Check, Headphones, Laptop, Award, Play, Volume2, Maximize2 } from 'lucide-react';
+import { Sparkles, ArrowRight, ShieldCheck, Zap, Star, Music, Check, Headphones, Laptop, Award, Play, Volume2, Maximize2, Clock } from 'lucide-react';
 
 interface HeroSectionProps {
   onOpenCheckout: () => void;
@@ -221,6 +221,31 @@ export const HeroSection = ({ onOpenCheckout }: HeroSectionProps) => {
                 className="w-full h-auto object-contain rounded-xl sm:rounded-2xl"
                 referrerPolicy="no-referrer"
               />
+            </div>
+          </div>
+
+          {/* Informação de Compatibilidade de Sistema Operacional */}
+          <div className="mt-3.5 sm:mt-4 p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-[#18181B] via-[#151518] to-[#18181B] border border-[#27272A] flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4 text-center sm:text-left">
+            <div className="flex items-center gap-3 w-full sm:w-auto">
+              <div className="w-10 h-10 rounded-xl bg-[#1F1C15] border border-[#F59E0B]/30 flex items-center justify-center text-[#FBBF24] shrink-0">
+                <Laptop className="w-5 h-5" />
+              </div>
+              <div className="text-left">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-xs sm:text-sm font-bold text-white uppercase tracking-tight font-mono">
+                    Compatibilidade do Sistema
+                  </span>
+                  <span className="px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 text-[10px] sm:text-xs font-mono font-bold border border-emerald-500/30 flex items-center gap-1">
+                    <Check className="w-3 h-3" /> Funciona em Windows
+                  </span>
+                  <span className="px-2 py-0.5 rounded-full bg-[#F59E0B]/10 text-[#FBBF24] text-[10px] sm:text-xs font-mono font-bold border border-[#F59E0B]/30 flex items-center gap-1">
+                    <Clock className="w-3 h-3" /> Em Breve iOS
+                  </span>
+                </div>
+                <p className="text-xs sm:text-sm text-[#A1A1AA] mt-1 leading-snug">
+                  Por enquanto o VSK funciona exclusivamente em <strong className="text-white">Windows</strong> (computadores e notebooks). Em breve funcionará em <strong className="text-[#FBBF24]">iOS</strong> também!
+                </p>
+              </div>
             </div>
           </div>
         </div>

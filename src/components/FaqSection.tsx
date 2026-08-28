@@ -41,9 +41,14 @@ export const FaqSection = ({ onOpenCheckout }: FaqSectionProps) => {
       answer: 'Sim! Além dos timbres de pianos acústicos e elétricos de alta qualidade já inclusos no pacote PRO, você pode arrastar e carregar qualquer arquivo .SF2 diretamente para dentro do VSK para tocar com seus timbres preferidos.'
     },
     {
+      id: 'faq-sistema',
+      question: 'Em quais sistemas operacionais o VSK PRO funciona?',
+      answer: 'Por enquanto, o VSK Studio PRO roda em computadores e notebooks com sistema operacional Windows (Windows 10 e Windows 11). A versão para iOS (iPad/iPhone) e dispositivos Apple já está em fase de desenvolvimento e será disponibilizada em breve para todos os alunos e membros com acesso vitalício!'
+    },
+    {
       id: 'faq7',
       question: 'O acesso é vitalício ou tem mensalidade recorrente?',
-      answer: 'O acesso é 100% VITALÍCIO com pagamento único de R$ 67,00. Você paga uma única vez e tem acesso para sempre, incluindo todas as atualizações e melhorias futuras do software, sem nenhuma cobrança surpresa ou mensalidade.'
+      answer: 'O acesso é 100% VITALÍCIO com pagamento único de R$ 77,90. Você paga uma única vez e tem acesso para sempre, incluindo todas as atualizações e melhorias futuras do software, sem nenhuma cobrança surpresa ou mensalidade.'
     },
     {
       id: 'faq8',
