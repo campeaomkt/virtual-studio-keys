@@ -42,7 +42,7 @@ export const StickyCtaBar = ({ onOpenCheckout }: StickyCtaBarProps) => {
               </span>
             </div>
             <div className="text-[10px] sm:text-xs text-[#71717A] mt-0.5">
-              De <span className="line-through text-red-400">R$ 197</span> por <strong className="text-[#00F2FE] font-mono text-xs sm:text-sm">R$ 77,90</strong> <span className="hidden xs:inline">(8x R$ 10,85)</span>
+              De <span className="line-through text-red-400">R$ 197</span> por <strong className="text-[#00F2FE] font-mono text-xs sm:text-sm">R$ 77,90</strong> <span className="hidden xs:inline text-[#FBBF24] font-semibold">(12x R$ 8,05)</span>
             </div>
           </div>
 

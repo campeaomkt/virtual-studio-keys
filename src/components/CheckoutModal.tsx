@@ -247,6 +247,7 @@ export const CheckoutModal = ({ isOpen, onClose }: CheckoutModalProps) => {
                       <option value="2">2x de R$ 40,30</option>
                       <option value="4">4x de R$ 20,80</option>
                       <option value="8">8x de R$ 10,85</option>
+                      <option value="12">12x de R$ 8,05</option>
                     </select>
                   </div>
                 </div>

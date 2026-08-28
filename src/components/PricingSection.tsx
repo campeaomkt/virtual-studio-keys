@@ -157,8 +157,8 @@ export const PricingSection = ({ onOpenCheckout }: PricingSectionProps) => {
                   </span>
                   <span className="text-[10px] sm:text-xs text-[#71717A] font-medium font-mono">À VISTA</span>
                 </div>
-                <div className="text-[11px] sm:text-xs text-[#FBBF24] font-semibold mt-1">
-                  ou em até <strong>8x de R$ 10,85</strong> no cartão
+                <div className="text-xs sm:text-sm md:text-base text-[#FBBF24] font-bold mt-1.5">
+                  ou em até <strong className="text-[#FDE047] text-sm sm:text-base md:text-lg font-black">12x de R$ 8,05</strong> no cartão
                 </div>
               </div>
 
