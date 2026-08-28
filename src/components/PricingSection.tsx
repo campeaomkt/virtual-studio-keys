@@ -188,15 +188,15 @@ export const PricingSection = ({ onOpenCheckout }: PricingSectionProps) => {
             </div>
 
             {/* Direct Big Purchase CTA Button */}
-            <button
+            <a
               id="pricing-cta-button"
-              onClick={onOpenCheckout}
-              className="w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl font-black text-sm sm:text-lg text-black bg-gradient-to-r from-[#FDE047] via-[#F59E0B] to-[#D97706] hover:from-[#FEF08A] hover:to-[#F59E0B] shadow-[0_10px_40px_rgba(245,158,11,0.4)] hover:scale-[1.02] active:scale-95 transition-all duration-200 uppercase tracking-tight flex items-center justify-center gap-2 sm:gap-3 cursor-pointer min-h-[50px]"
+              href="https://pay.cakto.com.br/56bxe73_1068948"
+              className="w-full py-4 sm:py-5 rounded-xl sm:rounded-2xl font-black text-sm sm:text-lg text-black bg-gradient-to-r from-[#FDE047] via-[#F59E0B] to-[#D97706] hover:from-[#FEF08A] hover:to-[#F59E0B] shadow-[0_10px_40px_rgba(245,158,11,0.4)] hover:scale-[1.02] active:scale-95 transition-all duration-200 uppercase tracking-tight flex items-center justify-center gap-2 sm:gap-3 cursor-pointer min-h-[50px] text-center"
             >
               <Zap className="w-4 h-4 sm:w-5 sm:h-5 fill-black text-black shrink-0" />
               <span>QUERO ACESSO AO VSK STUDIO PRO</span>
-              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform shrink-0" />
-            </button>
+              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 transition-transform shrink-0" />
+            </a>
 
             {/* Security & Payment Icons */}
             <div className="mt-5 sm:mt-6 pt-4 sm:pt-5 border-t border-[#27272A] flex flex-col items-center gap-2 sm:gap-3 text-xs text-[#71717A]">
